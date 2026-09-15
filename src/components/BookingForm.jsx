@@ -189,7 +189,6 @@ function BookingForm() {
                         value={form.nome}
                         onChange={handleChange("nome")}
                         placeholder="Seu nome completo"
-                        autoFocus
                       />
                       {errors.nome && <span className="field-error">{errors.nome}</span>}
                     </div>
